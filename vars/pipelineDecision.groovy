@@ -1,6 +1,6 @@
 #!groovy
 
-#we are controlling with below fuction about which language and which deployment platform needs to selected because we are keeping all language deployment platform in one folder(mean in one centralised repository)
+//we are controlling with below fuction about which language and which deployment platform needs to selected because we are keeping all language deployment platform in one folder(mean in one centralised repository)
 
 def decidePipeline(Map configMap){
     application = configMap.get('application')
